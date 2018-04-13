@@ -4,7 +4,7 @@ import java.util.Date;
  *  牛奶对象
  */
 
-public class Milk1 {
+public class Milk2 {
 
     /* 品牌 */
     private String brand;
