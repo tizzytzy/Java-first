@@ -30,7 +30,7 @@ public class Main {
         Milk milk1 = new Milk("金典");
         milk.setKind("脱脂牛奶");
         milk.setMall(true);
-        calendar.set(2018,5,1);
+        calendar.set(2017,5,1);
         milk.setPublishTime(calendar.getTime());
 
         calendar.clear();
@@ -38,7 +38,7 @@ public class Main {
          TreadMill treadMill1 = new TreadMill("金吉鸟");
          treadMill.setType("档位跑步机");
          treadMill.setMall(true);
-         calendar.set(2016,5,1);
+         calendar.set(2018,5,1);
          treadMill.setPublishTime(calendar.getTime());
 
          calendar.clear();
