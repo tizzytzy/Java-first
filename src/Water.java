@@ -19,6 +19,19 @@ public class Water {
     // 上架时间
     private Date publishTime;
 
+    // 是否商城同款
+    private boolean isMall;
+
+
+    public Water(){
+
+
+    }
+    public Water(String brand) {
+
+        this.brand = brand;
+    }
+
 
     public String getBrand() {
         return brand;
@@ -68,6 +81,13 @@ public class Water {
         this.publishTime = publishTime;
     }
 
+    public boolean isMall() {
+        return isMall;
+    }
+
+    public void setMall(boolean mall) {
+        isMall = mall;
+    }
 
 
 

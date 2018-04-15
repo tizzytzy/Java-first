@@ -24,6 +24,18 @@ public class Milk {
     private Date publishTime;
 
 
+    // 是否商城同款
+    private boolean isMall;
+
+    public Milk(){
+
+
+    }
+    public Milk(String brand) {
+
+        this.brand = brand;
+    }
+
     public String getBrand() {
         return brand;
     }
@@ -88,6 +100,12 @@ public class Milk {
         this.publishTime = publishTime;
     }
 
+    public boolean isMall() {
+        return isMall;
+    }
 
+    public void setMall(boolean mall) {
+        isMall = mall;
+    }
 
 }

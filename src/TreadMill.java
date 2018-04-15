@@ -23,6 +23,17 @@ public class TreadMill {
     // 上架时间
     private Date publishTime;
 
+    // 是否商城同款
+    private boolean isMall;
+
+    public TreadMill(){
+
+    }
+
+    public TreadMill(String brand){
+
+        this.brand = brand;
+    }
 
 
     public String getBrand() {
@@ -88,7 +99,11 @@ public class TreadMill {
     public void setPublishTime(Date publishTime) {
         this.publishTime = publishTime;
     }
+    public boolean isMall() {
+        return isMall;
+    }
 
-
-
+    public void setMall(boolean mall) {
+        isMall = mall;
+    }
 }
