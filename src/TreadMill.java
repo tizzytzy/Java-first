@@ -23,4 +23,72 @@ public class TreadMill {
     // 上架时间
     private Date publishTime;
 
+
+
+    public String getBrand() {
+        return brand;
+    }
+
+    public void setBrand(String brand) {
+        this.brand = brand;
+    }
+
+    public String getKind() {
+        return kind;
+    }
+
+    public void setKind(String kind) {
+        this.kind = kind;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
+
+    public String getHeartFitness() {
+        return heartFitness;
+    }
+
+    public void setHeartFitness(String heartFitness) {
+        this.heartFitness = heartFitness;
+    }
+
+    public String getLocality() {
+        return locality;
+    }
+
+    public void setLocality(String locality) {
+        this.locality = locality;
+    }
+
+    public String getDriveMode() {
+        return driveMode;
+    }
+
+    public void setDriveMode(String driveMode) {
+        this.driveMode = driveMode;
+    }
+
+    public int getWidth() {
+        return width;
+    }
+
+    public void setWidth(int width) {
+        this.width = width;
+    }
+
+    public Date getPublishTime() {
+        return publishTime;
+    }
+
+    public void setPublishTime(Date publishTime) {
+        this.publishTime = publishTime;
+    }
+
+
+
 }
