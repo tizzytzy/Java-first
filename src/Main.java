@@ -28,23 +28,23 @@ public class Main {
         calendar.clear();
 
         Milk milk1 = new Milk("金典");
-        milk.setKind("脱脂牛奶");
-        milk.setMall(true);
+        milk1.setKind("脱脂牛奶");
+        milk1.setMall(true);
         calendar.set(2017,5,1);
-        milk.setPublishTime(calendar.getTime());
+        milk1.setPublishTime(calendar.getTime());
 
         calendar.clear();
 
          TreadMill treadMill1 = new TreadMill("金吉鸟");
-         treadMill.setType("档位跑步机");
-         treadMill.setMall(true);
+         treadMill1.setType("档位跑步机");
+         treadMill1.setMall(true);
          calendar.set(2018,5,1);
-         treadMill.setPublishTime(calendar.getTime());
+         treadMill1.setPublishTime(calendar.getTime());
 
          calendar.clear();
 
          System.out.println(water1.getBrand()+":" +water1.getPublishTime());
-         System.out.println(milk.getBrand()+":" +milk.getPublishTime());
-         System.out.println(treadMill.getBrand()+":" +treadMill.getPublishTime());
+         System.out.println(milk1.getBrand()+":" +milk1.getPublishTime());
+         System.out.println(treadMill1.getBrand()+":" +treadMill1.getPublishTime());
         }
     }
