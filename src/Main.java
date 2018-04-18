@@ -143,13 +143,15 @@ public class Main {
 
         System.out.println("我拥有" + list2.size() +"部跑步机，它们是");
         System.out.println("品牌|种类|上市时间|商城是否同款");
-        if (treadMill3.isMall() == true || treadMill4.isMall() == true){
 
-            System.out.println(treadMill3.getBrand() + "|" + treadMill3.getType() + "|" + treadMill3.getPublishTime() );
+        for (TreadMill treadMill5 : list2) {
+            if (treadMill5.isMall()) {
+
+                System.out.println(treadMill5.getBrand() + "|" + treadMill5.getType() + "|" + treadMill5.getPublishTime());
+
+            }
 
         }
-
-
 
         }
 
