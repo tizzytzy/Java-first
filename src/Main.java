@@ -129,19 +129,25 @@ public class Main {
          System.out.println("我拥有" + list1.size() +"包牛奶，它们是");
          System.out.println("品牌|种类|上市时间|商城是否同款");
 
-
-         ArrayList<TreadMill> list2 = new ArrayList<TreadMill>();
-         TreadMill treadMill3 = main.initTreadMill("金吉鸟", "档位跑步机", true, 2015,4,3);
-         TreadMill treadMill4 = main.initTreadMill("力","吖吖跑步机",true,2016,5,3);
-
-         list2.add(treadMill3);
-         list2.add(treadMill4);
-
-         System.out.println("我拥有" + list2.size() +"部跑步机，它们是");
-         System.out.println("品牌|种类|上市时间|商城是否同款");
-
          main.filterMilks(list1);
 
+
+
+         Main main1 = new Main();
+        ArrayList<TreadMill> list2 = new ArrayList();
+        TreadMill treadMill3 = main.initTreadMill("金吉鸟", "档位跑步机", true, 2015,4,3);
+        TreadMill treadMill4 = main.initTreadMill("力","吖吖跑步机",true,2016,5,3);
+
+        list2.add(treadMill3);
+        list2.add(treadMill4);
+
+        System.out.println("我拥有" + list2.size() +"部跑步机，它们是");
+        System.out.println("品牌|种类|上市时间|商城是否同款");
+        if (treadMill3.isMall() == true || treadMill4.isMall() == true){
+
+            System.out.println(treadMill3.getBrand() + "|" + treadMill3.getType() + "|" + treadMill3.getPublishTime() );
+
+        }
 
 
 
