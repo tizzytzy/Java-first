@@ -133,7 +133,6 @@ public class Main {
 
 
 
-         Main main1 = new Main();
         ArrayList<TreadMill> list2 = new ArrayList();
         TreadMill treadMill3 = main.initTreadMill("金吉鸟", "档位跑步机", true, 2015,4,3);
         TreadMill treadMill4 = main.initTreadMill("力","吖吖跑步机",true,2016,5,3);
