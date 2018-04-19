@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c73e6ace-8ee6-4b6a-851e-a314576bb47b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/FileTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/treadMills-filter.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/treadMills.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c73e6ace-8ee6-4b6a-851e-a314576bb47b" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -265,16 +260,15 @@
       <workItem from="1524046021696" duration="855000" />
       <workItem from="1524073039758" duration="1302000" />
       <workItem from="1524120050672" duration="1392000" />
-      <workItem from="1524146381586" duration="6091000" />
+      <workItem from="1524146381586" duration="6355000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58976000" />
+    <option name="totallyTimeSpent" value="59240000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="bottom" id="TODO" order="11" />
